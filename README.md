@@ -13,6 +13,7 @@ Button,etc)
 Figure 1.1
 Picker 1, and Picker 2 should list the following country codes CAD, USD, EUR, GBP
 2
+
 Requirement 2 ( Money Exchange Rate Calculation ): [10 marks].  
 Your app must implement the Exchange Rate Calculation functionality. This is done with the
 help of a REST API.
@@ -33,10 +34,12 @@ https://api.exchangerate-api.com/v4/latest/USD
 3
 Figure 1.3
 The below is a snapshot of the JSON response that will be sent back from the API.
+
 Requirement 3 (Swap button functionality): [5 marks].  
 When the user clicks on the swap button, the country code value of the first picker and
 second picker must be swapped with each other. Also, the app must re-calculate and display
 the exchange rate of the two countries based on the new swapped data.
+
 Requirement 4 (Create a customized Component): [5 marks].  
 Your app must have the default App component and you MUST create an additional
 customized component and use it in an intuitive way.
