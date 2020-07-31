@@ -1,10 +1,8 @@
-# MADS4008-LabTest2-CurrencyConverter
+# CurrencyConverter-MADS4008-LabTest2
 
-PROBLEM DESCRIPTION
-Notes for the Learner : This Lab Test 2 is designed to give you practical experience
-experience in building simple(one screen ) cross platform applications using React Native
-that consume Restful APIs
-Overview:
+## PROBLEM DESCRIPTION
+
+### Overview:
 You have been contracted as a mobile developer to develop a simple one screen
 Money Exchange Calculator in the form of a cross platform app using React Native .
 Requirement 1 (Look and feel): [10 marks]
