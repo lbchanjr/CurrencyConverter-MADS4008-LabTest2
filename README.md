@@ -17,14 +17,14 @@
 
 #### Android screenshots
 
-<img src="./screenshots/currency-converter-android.png" alt="CC image for Android" width="150">          <img src="./screenshots/currency-converter-android.gif" alt="CC gif for Android" height="300">
+<img src="./screenshots/currency-converter-android.png" alt="CC image for Android" height="300">          <img src="./screenshots/currency-converter-android.gif" alt="CC gif for Android" height="300">
 #### iOS screenshots
 
-<img src="./screenshots/currency-converter-ios.png" alt="CC image for iOS" width="150">          <img src="./screenshots/currency-converter-ios.gif" alt="CC gif for iOS" height="300">
+<img src="./screenshots/currency-converter-ios.png" alt="CC image for iOS" height="300">          <img src="./screenshots/currency-converter-ios.gif" alt="CC gif for iOS" height="300">
 
 #### Web screenshots
 
-<img src="./screenshots/currency-converter-web.png" alt="CC image for web" width="150">          <img src="./screenshots/currency-converter-web.gif" alt="CC gif for web" height="300">
+<img src="./screenshots/currency-converter-web.png" alt="CC image for web" height="300">          <img src="./screenshots/currency-converter-web.gif" alt="CC gif for web" height="300">
 
 #### Features
 
