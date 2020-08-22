@@ -11,7 +11,7 @@
 
 * Child to Parent component data passing
 
-* States and Props
+* states and props, refs, event listeners
 
 * ComponentDidUpdate lifecycle hook processing
 
