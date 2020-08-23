@@ -13,7 +13,7 @@
 
 * states and props, refs, event listeners
 
-* ComponentDidUpdate lifecycle hook processing
+* Lifecycle hook processing
 
 #### Android screenshots
 
