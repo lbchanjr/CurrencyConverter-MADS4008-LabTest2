@@ -1,45 +1,39 @@
-# CurrencyConverter-MADS4008-LabTest2
+# Currency Converter (React Native App)
+#### A currency converter app written using the React Native framework and runs on the iOS, Android and web platforms.
 
-## PROBLEM DESCRIPTION
+#### Technology/Concepts Used
 
-### Overview:
-You have been contracted as a mobile developer to develop a simple one screen
-Money Exchange Calculator in the form of a cross platform app using React Native.      
-Requirement 1 (Look and feel): [10 marks].  
-Please note, your app MUST be laid out and look similar to Figure 1.1. Additionally, your app
-must contain all the pertinent React Native components and styles so that it looks similar to
-Figure 1.1 (Some React Native Components include : Image, Picker, Text, Textinput,
-Button,etc)
-Figure 1.1
-Picker 1, and Picker 2 should list the following country codes CAD, USD, EUR, GBP
-2
+* Class-based components
 
-Requirement 2 ( Money Exchange Rate Calculation ): [10 marks].  
-Your app must implement the Exchange Rate Calculation functionality. This is done with the
-help of a REST API.
-When the user changes the number value in the Text Input field, your app must calculate the
-exchange rate between the country code selected from the 1st picker against the country
-code selected in the 2nd picker.
-For example, If the user selects USD as the first country code with the first picker and CAD
-as the second country code with the second picker and 200 is entered in the Text Input field
-then your app MUST send an HTTP request to the API, get the relevant data, calculate and
-display what is the exchange rate of $200.00 USD in CAD. Also, your app must show what
-is the exchange rate of 1USD in CAD, as show in the Figure 1.2
-Figure 1.2
-See API’s endpoint :
-https://api.exchangerate-api.com/v4/latest/ Country_Code_of_FirstPicker
-If the user selects USD as the first country code picker then the app should send an HTTP
-request to the following endpoint :
-https://api.exchangerate-api.com/v4/latest/USD
-3
-Figure 1.3
-The below is a snapshot of the JSON response that will be sent back from the API.
+* RESTful APIs
 
-Requirement 3 (Swap button functionality): [5 marks].  
-When the user clicks on the swap button, the country code value of the first picker and
-second picker must be swapped with each other. Also, the app must re-calculate and display
-the exchange rate of the two countries based on the new swapped data.
+* Parent to child component data passing
 
-Requirement 4 (Create a customized Component): [5 marks].  
-Your app must have the default App component and you MUST create an additional
-customized component and use it in an intuitive way.
+* Child to Parent component data passing
+
+* states and props, refs, event listeners
+
+* ComponentDidUpdate lifecycle hook processing
+
+#### Android screenshots
+
+<img src="./screenshots/currency-converter-android.png" alt="CC image for Android" height="300">          <img src="./screenshots/currency-converter-android.gif" alt="CC gif for Android" height="300">
+#### iOS screenshots
+
+<img src="./screenshots/currency-converter-ios.png" alt="CC image for iOS" height="300">          <img src="./screenshots/currency-converter-ios.gif" alt="CC gif for iOS" height="300">
+
+#### Web screenshots
+
+<img src="./screenshots/currency-converter-web.png" alt="CC image for web" height="300">          <img src="./screenshots/currency-converter-web.gif" alt="CC gif for web" height="300">
+
+#### Features
+
+* Currency conversion between CAD, USD, EUR, GBP based on current rates available api.exchangerate-api.com.
+
+* Currency selected can be swapped by button click.
+
+* Auto-conversion of currency when user inputs value in textbox.
+
+* Runs on Android, iOS and web platforms.
+
+#### Link to specification: <a href="./docs/MADS4008-Lab Test 2.pdf" target="_blank">[App Specification]</a>
